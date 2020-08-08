@@ -1,12 +1,10 @@
+.features {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .features .container {
-  @media screen and (max-width: 767px) {
-    margin: 84px 31px;
-  }
-  @media screen and (min-width: 767px) {
-    margin: 100px 39px;
-  }
   @media screen and (min-width: 1200px) {
-    margin: 121px 125px 130px 155px;
     display: flex;
     flex-direction: row-reverse;
     align-content: space-between;
