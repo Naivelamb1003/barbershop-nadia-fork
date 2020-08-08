@@ -1,0 +1,247 @@
+@charset "UTF-8";
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: Open Sans, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(26 / 14);
+  /* or 186% */
+  letter-spacing: 0.02rem;
+  color: #555555;
+  background-color: #ffffff;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+/* --------------------------------------------- common classes ------------------------------------------------------- */
+.section {
+  padding: 60px 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .section {
+    padding: 94px 0;
+  }
+}
+
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
+}
+
+.list {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.item,
+.link,
+.text,
+.img {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section-title {
+  margin-bottom: 30px;
+  margin-top: 0;
+  color: #303030;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: calc(33 / 28);
+  text-align: center;
+  letter-spacing: 0.03rem;
+}
+
+@media screen and (min-width: 1280px) {
+  .section-title {
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.17;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.section-portfolio {
+  padding: 84px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .section-portfolio {
+    padding: 100px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section-portfolio {
+    padding: 130px 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container-portfolio {
+    width: 768px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container-portfolio {
+    width: 1280px;
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.line {
+  width: 60px;
+  height: 1px;
+  margin-top: 10px;
+  margin-right: 20px;
+  background-color: #303030;
+}
+
+.subtitle {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.container-photo {
+  padding-top: 44px;
+}
+
+@media screen and (min-width: 768px) {
+  .container-photo {
+    margin-right: -30px;
+    margin-left: -30px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container-photo {
+    margin-right: -55px;
+    margin-left: -55px;
+  }
+}
+
+.container-photo .list {
+  list-style: none;
+  margin: -30px;
+}
+
+@media screen and (min-width: 768px) {
+  .container-photo .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: -15px;
+  }
+}
+
+.container-photo .item {
+  display: block;
+  text-align: center;
+  margin: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .container-photo .item {
+    margin: 15px;
+    width: calc((100% - 4 * 30px) / 2);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container-photo .item {
+    margin: 15px;
+    width: calc((100% - 8 * 30px) / 4);
+  }
+}
+/*# sourceMappingURL=main.css.map */
