@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
+},{"./..\\images\\price\\img480.png":[["img480.83e9fa03.png","images/price/img480.png"],"images/price/img480.png"],"./..\\images\\price\\img480@2x.png":[["img480@2x.1f76bc33.png","images/price/img480@2x.png"],"images/price/img480@2x.png"],"./..\\images\\price\\img768.png":[["img768.4c5695f4.png","images/price/img768.png"],"images/price/img768.png"],"./..\\images\\price\\img768@2x.png":[["img768@2x.afdea626.png","images/price/img768@2x.png"],"images/price/img768@2x.png"],"./..\\images\\price\\img1280.png":[["img1280.c077222b.png","images/price/img1280.png"],"images/price/img1280.png"],"./..\\images\\price\\img1280@2x.png":[["img1280@2x.89af5fe9.png","images/price/img1280@2x.png"],"images/price/img1280@2x.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 require("./sass/main.scss");
@@ -221,7 +221,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49337" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64162" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
